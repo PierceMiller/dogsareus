@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Quicksand;
+}
+
+/*BANNER*/
+
+.banner {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), #000000 180%), 
+                      url(assets/main-banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.banner h2 {
+    font-family: Quicksand;
+    font-weight: bold !important;
+    font-size: 45px !important;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.banner p {
+    font-family: Quicksand;
+    font-weight: medium !important;
+    font-size: 24px !important;
+    color: #ffffff;
+    width: 580px;
+}
+
+.banner .button {
+    background-color:#de6c17;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.banner .button:hover {
+    text-decoration: none;
+    background-color:#e77b28;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+/*Banner wave effect*/
+
+.wave {
+    z-index: 10000;
+    top: 500px;
+    width: 100%;
+    position: absolute;
+}
+
+/*SECTION-1*/
+
+.section-1 .Our-Services {
+    padding-top: 40px;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 45px;
+    color: #36413c;
+  }
+
+  .section-1 .Local-trusted-pet {
+    width: 40vw;
+    height: 51px;
+    margin: 5px 187.5px 35px 188px;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5e6e66;
+    padding-bottom: 100px;
+  }
+
+  .section-1 .card {
+    border-radius: 20px;
+  }
+
+  .section-1 .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .section-1 .card-body {
+    min-height: 250px;
+  }
+
+  .section-1 .card-body .card-title {
+    font-weight: bold;
+  }
+
+  .section-1 .card-link {
+    color:#e77b28;
+    font-weight: bold;
+  }
+
+  .section-1 .card-link span{
+    font-size: 20px;
+    font-weight: bold !important;
+  }
