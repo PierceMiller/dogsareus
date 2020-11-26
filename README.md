@@ -2,7 +2,7 @@ Under the weather a bit, this is what I was able to achieve within the 2 hour ti
 
 What has been done:
 
-- Hero image with an linear gradient shadow ontop
+- Hero image with a linear gradient shadow ontop
 - Added SVG overlaying the hero image
 - Added services cards.
 
